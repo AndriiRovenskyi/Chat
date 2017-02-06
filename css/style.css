@@ -1,0 +1,52 @@
+header {
+    height: 100px;
+    background: #29BAD3;
+    position: relative;
+}
+header span{
+    color: aliceblue;
+    font-size:30px;
+    margin-right: 20px;
+}
+
+.exit{
+    position: absolute;
+    top:30px;
+    right: 25px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.myBtn {
+    margin-top: 25px;
+}
+
+.container {
+    width: 400px !important;
+    padding: 10px 10px 30px;
+    background: rgba(41, 186, 211, 0.6);
+    margin-top: 50px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.75);
+}
+
+.post {
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    background: #29BAD3;
+    border-radius: 10px;
+}
+
+.post h1{
+    text-align: center;
+}
