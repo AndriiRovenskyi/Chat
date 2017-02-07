@@ -15,7 +15,7 @@
     <header  ng-controller="logInCtrl as log">
         
             <div class="logo"><img src="css/img/logo.png" alt="logo"></div>
-                <div class="exit"><span>{{log.whoIsNow}}</span><button type="button" class="btn btn-danger" ng-click="log.exit()">Exit</button></div>
+                <div class="exit"><button type="button" class="btn btn-danger" ng-click="log.exit()">Exit</button></div>
     </header>
     <ng-view></ng-view>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
@@ -27,6 +27,7 @@
     <script src="js/controllers/logInCtrl.js"></script>
     <script src="js/services/dataUsers.js"></script>
     <script src="js/Data/data.js"></script>
+    <script src="js/Data/dataPosts.js"></script>
 </body>
 
 </html>
