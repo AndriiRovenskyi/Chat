@@ -1,3 +1,18 @@
-<div class="post">
-    <h1>{{}}</h1>
+
+<div class="post" ng-repeat="p in home.posts">
+    <h1>{{p.name}}</h1>
+    <p>{{p.text}}</p> </div>
+    
+    
+    
+<div class="writePlace">
+    <div class="writePlace--container">
+        <form>
+            <div class="form-group">
+                <h1>Write message</h1>
+                <textarea class="form-control" rows="5" id="comment" ng-model="home.text"></textarea>
+                <button type="submit" class="btn btn-info" ng-click="home.writePost()">SEND</button>
+            </div>
+        </form>
+    </div>
 </div>

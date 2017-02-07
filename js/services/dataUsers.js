@@ -6,6 +6,7 @@ app.factory('dataUsers', function ($location) {
                     $location.url("/home");
                     localStorage.setItem('name', users[key].name);
                     localStorage.setItem('log', users[key].log);
+              
                 }
             }
         }
@@ -19,6 +20,14 @@ app.factory('dataUsers', function ($location) {
         , regUser: function (user) {
             users.push(user);
             $location.url("/logIn");
+        },
+        addPost:function(a,b,c){
+        
+            posts.unshift({
+                text:a,
+                name:b,
+                log:c  
+            });
         }
     }
 });
